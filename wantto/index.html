@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Want.to Redirector</title>
+      <meta http-equiv = "refresh" content = "2; url = https://github.com/ukicomputers/wantto.github.io" />
+   </head>
+   <body>
+      
+
+      <svg
+        width="495"
+        height="195"
+        viewBox="0 0 495 195"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f97c1;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #0cf574;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #FFA500; 
+      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    }
+    
+    .bold { font-weight: 700 }
+    .icon {
+      fill: #f5b700;
+      display: none;
+    }
+    
+    .rank-circle-rim {
+      stroke: #2f97c1;
+      fill: none;
+      stroke-width: 6;
+      opacity: 0.2;
+    }
+    .rank-circle {
+      stroke: #2f97c1;
+      stroke-dasharray: 250;
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      opacity: 0.8;
+      transform-origin: -10px 8px;
+      transform: rotate(-90deg);
+      animation: rankAnimation 1s forwards ease-in-out;
+    }
+    
+    @keyframes rankAnimation {
+      from {
+        stroke-dashoffset: 251.32741228718345;
+      }
+      to {
+        stroke-dashoffset: 127.26107506515883;
+      }
+    }
+  
+  
+
+          
+    /* Animations */
+    @keyframes scaleInAnimation {
+      from {
+        transform: translate(-5px, 5px) scale(0);
+      }
+      to {
+        transform: translate(-5px, 5px) scale(1);
+      }
+    }
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#FFA500"
+          width="494"
+          fill="#040f0f"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 80)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Hold on... Redirecting...</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g data-testid="rank-circle" 
+          transform="translate(400, 37.5)">
+        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <g class="rank-text">
+          <text
+            x="-5"
+            y="2"
+            alignment-baseline="central"
+            dominant-baseline="central"
+            text-anchor="middle"
+          >Redirector</text>
+        </g>
+      </g>
+
+    <svg x="0" y="0">
+      <g transform="translate(0, 60)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">By UKI COMPUTERS
+	 </text>
+      <text 
+        class="stat" 
+        x="170" 
+        y="12.5" 
+        data-testid="stars"
+      ></text>
+    </g>
+
+  
+        </g>
+      </svg>
+    
+   </body>
+</html>
