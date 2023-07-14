@@ -1,4 +1,5 @@
 # ukicomputers.github.io/wantto
+## Link is not working: service is shuted down!
 Shortly redirector for all links as this page!
 
 Hi everyone! This is shortly service. If you want to me add your link here to redirect, please type me that in issuses.
